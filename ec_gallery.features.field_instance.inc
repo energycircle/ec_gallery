@@ -140,8 +140,8 @@ function ec_gallery_field_default_field_instances() {
       'module' => 'media',
       'settings' => array(
         'allowed_schemes' => array(
-          0 => 'public',
-          1 => 'private',
+          0 => 'private',
+          1 => 'public',
         ),
         'allowed_types' => array(
           0 => 'image',
