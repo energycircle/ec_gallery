@@ -77,7 +77,7 @@ function ec_gallery_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Inactive Fields',
-    'weight' => '2',
+    'weight' => '3',
     'children' => array(
       0 => 'field_ref_case_sudy_page',
       1 => 'field_ref_case_study_promo',
@@ -86,8 +86,7 @@ function ec_gallery_field_group_info() {
       4 => 'field_display_subtitle',
       5 => 'field_display_title',
       6 => 'field_ref_case_study_prodpage',
-      7 => 'group_casestudy_project_info',
-      8 => 'group_shown_on_this_page',
+      7 => 'group_shown_on_this_page',
     ),
     'format_type' => 'div',
     'format_settings' => array(
